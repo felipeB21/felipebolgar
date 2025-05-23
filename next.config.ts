@@ -7,7 +7,10 @@ const nextConfig: NextConfig = {
       {
         protocol: "https",
         hostname: "cdn.weatherapi.com",
-        pathname: "/weather/**", // Optional: restricts to weather images path
+        pathname: "/weather/**",
+      },
+      {
+        hostname: "ui.aceternity.com",
       },
     ],
   },
